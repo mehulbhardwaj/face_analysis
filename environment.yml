@@ -1,0 +1,21 @@
+name: face_analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy>=1.26.4
+  - opencv>=4.11.0
+  - matplotlib>=3.9.4
+  - pillow>=10.0.0
+  - scipy>=1.13.1
+  - pygame>=2.6.1
+  - pytest>=7.0.0
+  - black>=22.0.0
+  - flake8>=4.0.0
+  - psutil>=7.0.0
+  - pip
+  - pip:
+    - mediapipe>=0.10.21
+    - sounddevice>=0.5.1
+    - opencv-contrib-python>=4.11.0.86 
